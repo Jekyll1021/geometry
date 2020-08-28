@@ -31,7 +31,7 @@ import tf
 import rospy
 import numpy
 
-from PyKDL import *
+from kdl_pybind import *
 
 def fromTf(tf):
     """
